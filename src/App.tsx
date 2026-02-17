@@ -5,11 +5,17 @@ import Metrics from './components/Metrics'
 import './App.css'
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('dashboard')
+  const [activeTab, setActiveTab] = useState('metrics')
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(true)
 
   return (
     <div className="app">
-      <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Sidebar
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        collapsed={sidebarCollapsed}
+        onToggle={() => setSidebarCollapsed(c => !c)}
+      />
       <main className="main-content">
         {activeTab === 'dashboard' && <Dashboard />}
         {activeTab === 'metrics' && <Metrics />}
