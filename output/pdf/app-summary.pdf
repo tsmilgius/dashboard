@@ -1,0 +1,59 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2033 >>
+stream
+BT /F2 18 Tf 1 0 0 1 36 756 Tm (Dashboard App Summary) Tj ET
+0.85 g 0.5 w 36 740 m 576 740 l S 0 g
+BT /F2 12 Tf 1 0 0 1 36 722 Tm (What it is) Tj ET
+BT /F1 11 Tf 1 0 0 1 36 708 Tm (A React + Vite single-page dashboard UI with a sidebar and charts rendered via Recharts.) Tj ET
+BT /F1 11 Tf 1 0 0 1 36 695 Tm (All metrics are static, defined in the frontend.) Tj ET
+BT /F2 12 Tf 1 0 0 1 36 677 Tm (Who it is for) Tj ET
+BT /F1 11 Tf 1 0 0 1 36 663 Tm (Users who need an at-a-glance view of customer, organization, and revenue activity.) Tj ET
+BT /F2 12 Tf 1 0 0 1 36 645 Tm (What it does) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 631 Tm (- Top-line stats cards for Total customers, Members, and Active now.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 618 Tm (- Opportunity stage breakdown shown as a donut chart.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 605 Tm (- Deal funnel stages visualized with a horizontal bar chart.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 592 Tm (- Revenue vs Leads time series with dual y-axes.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 579 Tm (- Sidebar navigation for Dashboard, Customers, Organizations, Upgrade, Settings.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 566 Tm (- Date filter button in the UI \(no behavior in repo\).) Tj ET
+BT /F2 12 Tf 1 0 0 1 36 547 Tm (How it works \(repo-based\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 533 Tm (- Entry: src/main.tsx mounts App into #root.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 520 Tm (- State: App tracks activeTab and conditionally renders Dashboard.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 507 Tm (- UI: Sidebar maps a static menu list to buttons and updates state.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 494 Tm (- Data: Dashboard defines in-memory arrays for stats and chart series.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 481 Tm (- Charts: Recharts components render Pie, Bar, and Line charts.) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 468 Tm (- Backend/API: Not found in repo. Data store: Not found in repo.) Tj ET
+BT /F2 12 Tf 1 0 0 1 36 449 Tm (How to run) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 435 Tm (- npm install) Tj ET
+BT /F1 11 Tf 1 0 0 1 46 422 Tm (- npm run dev) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000002336 00000 n 
+0000002406 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2481
+%%EOF

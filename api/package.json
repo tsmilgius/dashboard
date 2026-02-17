@@ -1,0 +1,9 @@
+{
+  "name": "dashboard-metrics-api",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "systeminformation": "^5.31.0"
+  }
+}

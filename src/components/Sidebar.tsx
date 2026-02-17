@@ -1,4 +1,4 @@
-import { FiHome, FiUsers, FiSettings, FiArrowUpCircle } from 'react-icons/fi'
+import { FiHome, FiUsers, FiSettings, FiArrowUpCircle, FiActivity } from 'react-icons/fi'
 import { HiOutlineOfficeBuilding } from 'react-icons/hi'
 import './Sidebar.css'
 
@@ -10,6 +10,7 @@ interface SidebarProps {
 const Sidebar = ({ activeTab, setActiveTab }: SidebarProps) => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: FiHome },
+    { id: 'metrics', label: 'Server Metrics', icon: FiActivity },
     { id: 'customers', label: 'Customers', icon: FiUsers },
     { id: 'organizations', label: 'Organizations', icon: HiOutlineOfficeBuilding },
     { id: 'upgrade', label: 'Upgrade account', icon: FiArrowUpCircle },

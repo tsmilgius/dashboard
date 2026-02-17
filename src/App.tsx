@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import './App.css'
 import Sidebar from './components/Sidebar'
 import Dashboard from './components/Dashboard'
+import Metrics from './components/Metrics'
+import './App.css'
 
-function App() {
+export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
 
   return (
@@ -11,9 +12,14 @@ function App() {
       <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
       <main className="main-content">
         {activeTab === 'dashboard' && <Dashboard />}
+        {activeTab === 'metrics' && <Metrics />}
+        {activeTab !== 'dashboard' && activeTab !== 'metrics' && (
+          <div style={{ padding: 24 }}>
+            <h2 style={{ color: '#1d1d1f' }}>{activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</h2>
+            <p style={{ color: '#86868b', marginTop: 8 }}>Coming soon…</p>
+          </div>
+        )}
       </main>
     </div>
   )
 }
-
-export default App
